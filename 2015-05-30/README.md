@@ -18,7 +18,7 @@ article](http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-ker
 #### 1. Set up vagrant
 
 ```bash
-$ vagrant init hashicorp/precise32
+vagrant init hashicorp/precise32
 ```
 
 Edit `Vagrantfile` to include the line:
@@ -118,11 +118,11 @@ SECTIONS
 #### 5. Build Kernel
 
 ```
-$ nasm -f elf32 kernel.asm -o kasm.o
+nasm -f elf32 kernel.asm -o kasm.o
 ```
 
 ```
-$ gcc -m32 -c kernel.c -o kc.o
+gcc -m32 -c kernel.c -o kc.o
 ```
 
 ```
