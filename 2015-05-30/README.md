@@ -10,10 +10,7 @@
 ---
 
 A very nice guide to creating your own kernel, took a bit of tweaking to make it
-work via vagrant on OSX but the main article was solid.
-
-End result in my case was a VNC session to a qemu emulation for my first kernel,
-pretty fun!
+work via vagrant on OSX but the main article was solid. End result in my case was a VNC session to a qemu emulation for my first kernel, pretty fun!
 
 For the proper tutorial, see the [original
 article](http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel), the below skims the main content and just breifly outlines the steps I took to get it working on OSX via vagrant.
