@@ -31,7 +31,7 @@ This will later allow us to connect via VNC screensharing
 
 #### 2. Create asm for entrypoint + multiboot headers
 
-```
+```assembly
 ;;kernel.asm
 
 ;nasm directive - generate code to run in 32 bit processor mode
