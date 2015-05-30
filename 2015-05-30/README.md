@@ -5,7 +5,7 @@
 
 **Article:** http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel
 
-**Time:** ~2/3h of tinkering, exploring manpages etc.
+**Time:** ~2/3h of tinkering, exploring manpages, specs etc.
 
 ---
 
