@@ -2,7 +2,8 @@
 
 **Article:** http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel
 
-**Via:** [@doismellburning](https://twitter.com/doismellburning)
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="http://t.co/6LjOiwv0Vz">http://t.co/6LjOiwv0Vz</a></p>&mdash; Kristian Glass (<a href="https://twitter.com/doismellburning">@doismellburning<a>) <a href="https://twitter.com/doismellburning/status/603982381272453120">May 28, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 **Time:** ~2/3h of tinkering, exploring manpages etc.
 
@@ -131,6 +132,8 @@ $ gcc -m32 -c kernel.c -o kc.o
 ld -m elf_i386 -T link.ld -o kernel kasm.o kc.o
 ```
 
+I've packaged these up into a Makefile so for me this was just `make`.
+
 #### 6. Run Kernel
 
 You could do this using [qemu](http://wiki.qemu.org/Main_Page) and display
@@ -144,10 +147,12 @@ per the Vagrantfile earlier.
 
 ```
 $ qemu-system-i386 -kernel kernel -no-kvm -vnc :1,password -monitor stdio
-QEMU 1.0 monitor - type 'help' for more information
 (qemu) change vnc password
-Password: ***
+Password: **********
+(qemu)
 ```
+
+I popped this into my Makefile so I could run it via `make vnc`
 
 - `-no-kvm` to preventdd `Could not access KVM kernel module: No such file or directory`
 - `-vnc :1,password` to send output to a VNC session on port 5901
