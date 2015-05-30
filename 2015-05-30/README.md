@@ -1,9 +1,9 @@
 # 2015-05-30 - Let's write a Kernel
 
-**Article:** http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel
-
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="http://t.co/6LjOiwv0Vz">http://t.co/6LjOiwv0Vz</a></p>&mdash; Kristian Glass (<a href="https://twitter.com/doismellburning">@doismellburning<a>) <a href="https://twitter.com/doismellburning/status/603982381272453120">May 28, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+**Article:** http://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel
 
 **Time:** ~2/3h of tinkering, exploring manpages etc.
 
